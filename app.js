@@ -45,5 +45,5 @@ app.use("/follow", isAuth, FollowRouter);
 app.listen(PORT, () => {
     console.log(clc.underline(`App is running at`));
     console.log(clc.yellow(`http://localhost:${PORT}`));
-    // cleanUpBin();
+    cleanUpBin();
 });
